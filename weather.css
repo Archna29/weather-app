@@ -1,0 +1,73 @@
+
+body, html {
+    height: 100%;
+  }
+  /* code for background image */
+body{
+    background: url("https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png?compress=1&resize=400x300");
+background-repeat: no-repeat;
+background-size: cover;
+background-position:top-center ;
+}
+/* end  */
+h1{
+    color:#000;
+    text-decoration: bold;
+}
+/* styling of form input boxes */
+#input{
+    border:none;
+    background: none;
+    border-bottom: 3px solid black;
+    text-decoration: bold; 
+    font-size: 20px;
+    color:white;
+}
+#in{
+    border:none;
+    background: none;
+    border-bottom: 3px solid black;
+    text-decoration: bold; 
+    font-size: 20px;
+    color:white;
+}
+
+
+#input::placeholder{
+    color:#303030;
+    opacity: 1;
+    text-decoration: bold;
+}
+#in::placeholder{
+    color:	#303030;
+    opacity: 1;
+    text-decoration: bold;
+}
+/* /end */
+/* Styling of card */
+.card{
+      background: transparent;     
+  margin:auto;
+  color:white;
+   border:4px solid #32174d;
+  
+}
+/* Styling of description imamge */
+#image{
+    width:105px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/* border-radius: 50%; */
+}
+/* styling for resposiveness */
+@media only screen and (max-width: 340px) {
+   #image{
+       width:75px;
+   }
+   .card{
+       margin-top:-15px;
+   }
+  }
+ 
+  
